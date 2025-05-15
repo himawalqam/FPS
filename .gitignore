@@ -1,0 +1,20 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+UserSettings/
+
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Project files to ignore
+*.csproj
+*.unityproj
+*.sln
+*.user
