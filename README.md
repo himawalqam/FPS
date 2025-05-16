@@ -1,4 +1,5 @@
 整理我开发期间遇到的问题和BUG
+
 1.遇到着色器（URP）混乱问题:(1)选择已经混乱的material(一般是全变粉色), Edit->Rendering->Materials->Convert Selected Built-in Materials to URP(如果这个行不通使用第二种)
                   (2)Window->Rendering->Render Pipeline Converter, 选择Rendering Settings,Material Upgrade,Readonly Material Converter. 然后点击Convert Assets再点击Initialize And Convert. 这样就能解决着色器问题了
     
