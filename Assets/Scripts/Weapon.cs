@@ -65,8 +65,6 @@ public class Weapon : MonoBehaviour
     void Update()
     {
 
-        
-
         if (isActiveWeapon)
         {
 
@@ -89,7 +87,7 @@ public class Weapon : MonoBehaviour
                 isShooting = Input.GetKeyDown(KeyCode.Mouse0);
             }
 
-            if (Input.GetKeyDown(KeyCode.R) && bulletsLeft < magazineSize && isReloding == false)
+            if (Input.GetKeyDown(KeyCode.R) && bulletsLeft < magazineSize && isReloding == false && WeaponManager.Instance.CheckAmmoLeftfor(thisWeaponModel) > 0)
             {
                 Reload();
             }
@@ -97,7 +95,7 @@ public class Weapon : MonoBehaviour
             // ×Ô¶¯»»µ¯
             if (bulletsLeft <= 0 && isReloding == false && isShooting == false && readyToShoot)
             {
-                Reload();
+                // Reload();
             }
 
             if (readyToShoot && isShooting && bulletsLeft > 0)
@@ -106,13 +104,12 @@ public class Weapon : MonoBehaviour
                 FireWeapon();
             }
 
-            if (AmmoManager.Instance.ammoDisplay != null)
-            {
-                AmmoManager.Instance.ammoDisplay.text = $"{bulletsLeft / bulletsPerBurst}/{magazineSize / bulletsPerBurst}";
-            } 
+            
         }
 
     }
+
+   
 
     private void FireWeapon()
     {
@@ -166,7 +163,26 @@ public class Weapon : MonoBehaviour
 
     void ReloadCompleted()
     {
-        bulletsLeft = magazineSize;
+        //if (WeaponManager.Instance.CheckAmmoLeftfor(thisWeaponModel) > magazineSize)
+        //{
+        //    bulletsLeft = magazineSize;
+        //    WeaponManager.Instance.DecreaseTotalAmmo(bulletsLeft, thisWeaponModel);
+        //}
+        //else
+        //{
+        //    bulletsLeft = WeaponManager.Instance.CheckAmmoLeftfor(thisWeaponModel);
+        //    WeaponManager.Instance.DecreaseTotalAmmo(bulletsLeft, thisWeaponModel);
+        //}
+
+        int ammoLeft = WeaponManager.Instance.CheckAmmoLeftfor(thisWeaponModel);
+        int bulletsNeeded = magazineSize - bulletsLeft;
+
+        int bulletsToReload = Mathf.Min(bulletsNeeded, ammoLeft);
+
+        bulletsLeft += bulletsToReload;
+        WeaponManager.Instance.DecreaseTotalAmmo(bulletsToReload, thisWeaponModel);
+
+
         isReloding = false;
 
     }

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8975412826294976216}
   - component: {fileID: 352144946476869716}
   - component: {fileID: 624803947226250514}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MuzzleNarrowVertical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4920,7 +4920,7 @@ GameObject:
   - component: {fileID: 1285134475292788414}
   - component: {fileID: 3570860792559115614}
   - component: {fileID: 469824294637394540}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Flash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9820,7 +9820,7 @@ GameObject:
   - component: {fileID: 7655466766369216526}
   - component: {fileID: 8110375241172795899}
   - component: {fileID: 3058793197390284764}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MuzzleBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14720,7 +14720,7 @@ GameObject:
   - component: {fileID: 7043812572963043033}
   - component: {fileID: 7899694151107783914}
   - component: {fileID: 4293997680218448694}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sparks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19620,7 +19620,7 @@ GameObject:
   - component: {fileID: 2921041930494518400}
   - component: {fileID: 6352713762841908129}
   - component: {fileID: 4359537577711993568}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rear_Sight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19703,7 +19703,7 @@ GameObject:
   - component: {fileID: 6649194814497643678}
   - component: {fileID: 8230725982976494381}
   - component: {fileID: 3688573485332212830}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19786,7 +19786,7 @@ GameObject:
   - component: {fileID: 1708233176553226453}
   - component: {fileID: 4599704329764689637}
   - component: {fileID: 441055759901897054}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24686,7 +24686,7 @@ GameObject:
   - component: {fileID: 4551475569660648720}
   - component: {fileID: 643345432260592131}
   - component: {fileID: 8841018068231474188}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MuzzleAddNarrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29593,7 +29593,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6287004483967859777}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BulletSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29627,7 +29627,7 @@ GameObject:
   - component: {fileID: 2330494461251738924}
   - component: {fileID: 8221415292753035350}
   - component: {fileID: 5182449135046451819}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MuzzleBase (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34531,7 +34531,7 @@ GameObject:
   - component: {fileID: 1399384442793082859}
   - component: {fileID: 7577938897579151869}
   - component: {fileID: 6346664548159328713}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: M16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34713,7 +34713,7 @@ GameObject:
   - component: {fileID: 6797794449048232631}
   - component: {fileID: 3427243501905499968}
   - component: {fileID: 7717973132815288738}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: VFX_M4 Muzzle Flash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39620,7 +39620,7 @@ GameObject:
   - component: {fileID: 3851333989314589925}
   - component: {fileID: 5445808387069976024}
   - component: {fileID: 6488131463159046728}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bolt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39703,7 +39703,7 @@ GameObject:
   - component: {fileID: 3476456623429309668}
   - component: {fileID: 7065523958729643182}
   - component: {fileID: 6248935383076403800}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39786,7 +39786,7 @@ GameObject:
   - component: {fileID: 4468803598038460312}
   - component: {fileID: 540346759283263923}
   - component: {fileID: 6848898765038169213}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mag
   m_TagString: Untagged
   m_Icon: {fileID: 0}

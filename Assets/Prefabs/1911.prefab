@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5255035659388780323}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CINEMA_4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 4945677011117730279}
   - component: {fileID: 5830795493431630305}
   - component: {fileID: 8005763846277152792}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sparks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4942,7 +4942,7 @@ GameObject:
   - component: {fileID: 1153585615091900370}
   - component: {fileID: 5957304852077110942}
   - component: {fileID: 2604439662822861898}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Slide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5025,7 +5025,7 @@ GameObject:
   - component: {fileID: 3515746197675631286}
   - component: {fileID: 7449252263025548515}
   - component: {fileID: 4667125819058183112}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Magazin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5110,7 +5110,7 @@ GameObject:
   - component: {fileID: 4893670885845177433}
   - component: {fileID: 3757608872909503088}
   - component: {fileID: 8591142566869915591}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1911
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5239,7 +5239,7 @@ GameObject:
   - component: {fileID: 4386056604235763731}
   - component: {fileID: 1228368012171177297}
   - component: {fileID: 2684709037431891478}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5322,7 +5322,7 @@ GameObject:
   - component: {fileID: 1163161802123435852}
   - component: {fileID: 3647385910788647045}
   - component: {fileID: 8092640916882539507}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MuzzleBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10222,7 +10222,7 @@ GameObject:
   - component: {fileID: 8193083889814622899}
   - component: {fileID: 8900353908564489844}
   - component: {fileID: 3139721727596474957}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MuzzleAddNarrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15131,7 +15131,7 @@ GameObject:
   - component: {fileID: 1931304668502985020}
   - component: {fileID: 6805571094484901736}
   - component: {fileID: 3222277209762418127}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Flash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20029,7 +20029,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5192503094724209932}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BulletSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20063,7 +20063,7 @@ GameObject:
   - component: {fileID: 2125778137653384044}
   - component: {fileID: 3946396318385467418}
   - component: {fileID: 8351421387265858786}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MuzzleBase (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24963,7 +24963,7 @@ GameObject:
   - component: {fileID: 5409166494578319934}
   - component: {fileID: 3688846030490350167}
   - component: {fileID: 6696125611106958261}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29863,7 +29863,7 @@ GameObject:
   - component: {fileID: 6284070215668645709}
   - component: {fileID: 6410510783199278563}
   - component: {fileID: 3903870833757316233}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hammer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29946,7 +29946,7 @@ GameObject:
   - component: {fileID: 8784597155561547245}
   - component: {fileID: 5074096717254407947}
   - component: {fileID: 1401092580442700169}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: VFX_M4 Muzzle Flash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34853,7 +34853,7 @@ GameObject:
   - component: {fileID: 7907584072666764017}
   - component: {fileID: 9080810687349815355}
   - component: {fileID: 4195988719958632814}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MuzzleNarrowVertical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39762,7 +39762,7 @@ GameObject:
   - component: {fileID: 8634410559153010326}
   - component: {fileID: 5187551095515298860}
   - component: {fileID: 7308530336772079971}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: M1911
   m_TagString: Untagged
   m_Icon: {fileID: 0}
