@@ -8,18 +8,24 @@ public class Weapon : MonoBehaviour
 {
     public bool isActiveWeapon;
 
+    [Header("Shooting")]
     // 射击
     public bool isShooting, readyToShoot;
     bool allowReset = true;
     public float shootingDely = 0.2f;
 
+    [Header("Burst")]
     //连发模式属性
     public int bulletsPerBurst = 3;
     public int burstBulletsLeft;
 
+    [Header("Spread")]  
     // 枪械灵敏度属性
     public float spreadIntensity;
+    public float hipSpreadIntensity;
+    public float adsSpreadIntensity;
 
+    [Header("Bullet")]
     //子弹属性
     public GameObject bulletPrefab;
     public Transform bulletSpawn;
@@ -29,7 +35,8 @@ public class Weapon : MonoBehaviour
     public GameObject muzzleEffect;
     internal Animator animator;
 
-    // loading
+    [Header("Loading")]
+    // Loading
     public float reloadTime; //武器换弹时间
     public int magazineSize, bulletsLeft; //弹匣容量, 剩余子弹
     public bool isReloding; // 检查是否换弹
@@ -37,6 +44,7 @@ public class Weapon : MonoBehaviour
     public Vector3 spawnPosition;
     public Vector3 spawnRotation;
 
+    private bool isADS;
 
     public enum WeaponModel
     {
@@ -60,6 +68,9 @@ public class Weapon : MonoBehaviour
         burstBulletsLeft = bulletsPerBurst;
         animator = GetComponent<Animator>();
         bulletsLeft = magazineSize;
+
+        spreadIntensity = hipSpreadIntensity;
+
     }
 
     void Update()
@@ -67,6 +78,15 @@ public class Weapon : MonoBehaviour
 
         if (isActiveWeapon)
         {
+            if (Input.GetMouseButtonDown(1))
+            {
+                EnterADS();
+            }
+
+            if (Input.GetMouseButtonUp(1))
+            {
+                ExitADS();
+            }
 
             GetComponent<Outline>().enabled = false;
 
@@ -110,12 +130,37 @@ public class Weapon : MonoBehaviour
     }
 
    
+    private void EnterADS()
+    {
+        animator.SetTrigger("enterADS");
+        isADS = true;
+        HUNDManager.Instance.middleDot.SetActive(false);
+        spreadIntensity = adsSpreadIntensity;
+    }
+    private void ExitADS()
+    {
+
+        animator.SetTrigger("exitADS");
+        isADS = false;
+        HUNDManager.Instance.middleDot.SetActive(true);
+        spreadIntensity = hipSpreadIntensity;
+    }
 
     private void FireWeapon()
     {
         bulletsLeft--;
         muzzleEffect.GetComponent<ParticleSystem>().Play();
-        animator.SetTrigger("RECOIL");
+
+        // 在ADS状态后不播放后坐力动画
+        if (isADS)
+        {
+            animator.SetTrigger("RECOIL_ADS");  
+        }
+        else
+        {
+            animator.SetTrigger("RECOIL");
+        }
+        
 
         SoundManager.Instance.PlayShootingSound(thisWeaponModel);
 
@@ -213,11 +258,11 @@ public class Weapon : MonoBehaviour
 
         Vector3 direction = targetPoint - bulletSpawn.position;
 
-        float x = UnityEngine.Random.Range(-spreadIntensity, spreadIntensity);
+        float z = UnityEngine.Random.Range(-spreadIntensity, spreadIntensity);
         float y = UnityEngine.Random.Range(-spreadIntensity, spreadIntensity);
 
         //返回拍摄方向和扩散
-        return direction + new Vector3(x, y, 0);
+        return direction + new Vector3(0, y, z);
 
     }
 

@@ -28,6 +28,7 @@ public class HUNDManager : MonoBehaviour
 
     public Sprite emptySlot;
 
+    public GameObject middleDot;
     private void Awake()
     {
         if (Instance != this && Instance != null)
