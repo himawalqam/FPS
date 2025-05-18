@@ -14,10 +14,18 @@ public class WeaponManager : MonoBehaviour
     public int totalRifleAmmo = 0;
     public int totalPistolAmmo = 0;
 
+    [Header("Throwables")]
+    public int grenades = 0;
+    public float throwForce = 10f;
+    public GameObject grenadePrefab;
+    public GameObject throwableSpawn;
+    public float forceMultiplier = 0;
+    public float forceMultiplierLimit = 2f;
+
     private void Awake()
 
     {
-        if(Instance!=this&& Instance != null)
+        if (Instance != this && Instance != null)
         {
             Destroy(Instance);
         }
@@ -34,7 +42,7 @@ public class WeaponManager : MonoBehaviour
 
     private void Update()
     {
-        foreach(GameObject weaponSlot in weaponSlots)
+        foreach (GameObject weaponSlot in weaponSlots)
         {
             if (weaponSlot == activeWeaponSlot)
             {
@@ -55,7 +63,29 @@ public class WeaponManager : MonoBehaviour
         {
             SwitchActiveSlot(1);
         }
+
+        if (Input.GetKey(KeyCode.G))
+        {
+            forceMultiplier += Time.deltaTime;
+
+            if(forceMultiplier > forceMultiplierLimit)
+            {
+                forceMultiplier = forceMultiplierLimit;
+            }
+        }
+
+        if (Input.GetKeyUp(KeyCode.G))
+        {
+            if(grenades > 0)
+            {
+                Throwlethal();
+            }
+
+            forceMultiplier = 0;
+        }
     }
+
+    
 
     public void PickupWeapon(GameObject PickedupWeapon)
     {
@@ -90,7 +120,7 @@ public class WeaponManager : MonoBehaviour
     }
     private void DropCurrentWeapon(GameObject pickedupWeapon)
     {
-       if(activeWeaponSlot.transform.childCount > 0)
+        if (activeWeaponSlot.transform.childCount > 0)
         {
             var weaponToDrop = activeWeaponSlot.transform.GetChild(0).gameObject;
 
@@ -125,7 +155,7 @@ public class WeaponManager : MonoBehaviour
         switch (thisWeaponModel)
         {
             case Weapon.WeaponModel.M16:
-                totalRifleAmmo -= bulletsToDecrease; 
+                totalRifleAmmo -= bulletsToDecrease;
                 break;
             case Weapon.WeaponModel.Pistol1911:
                 totalPistolAmmo -= bulletsToDecrease;
@@ -146,4 +176,37 @@ public class WeaponManager : MonoBehaviour
 
         }
     }
+
+
+    #region || ----Throwable----||
+    public void PickupThrowable(Throwable throwable)
+    {
+        switch (throwable.throwableType)
+        {
+            case Throwable.ThrowableType.Green:
+                PickupGrenade();
+                break;
+        }
+    }
+
+    private void PickupGrenade()
+    {
+        grenades += 1;
+
+        HUNDManager.Instance.UpdateThrowables(Throwable.ThrowableType.Green);
+    }
+
+    private void Throwlethal()
+    {
+        GameObject LethalPrefab = grenadePrefab;
+        GameObject throwable = Instantiate(LethalPrefab, throwableSpawn.transform.position, Camera.main.transform.rotation);
+        Rigidbody rb = throwable.GetComponent<Rigidbody>();
+
+        rb.AddForce(Camera.main.transform.forward * (throwForce * forceMultiplier), ForceMode.Impulse);
+        throwable.GetComponent<Throwable>().hasBeenThrown = true;
+
+        grenades -= 1;
+        HUNDManager.Instance.UpdateThrowables(Throwable.ThrowableType.Green);
+    }
+    #endregion
 }

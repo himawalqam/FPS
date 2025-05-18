@@ -82,10 +82,10 @@ public class HUNDManager : MonoBehaviour
         switch (model)
         {
             case Weapon.WeaponModel.Pistol1911:
-                return Instantiate(Resources.Load<GameObject>("Pistol1911_Weapon")).GetComponent<SpriteRenderer>().sprite;
+                return Resources.Load<GameObject>("Pistol1911_Weapon").GetComponent<SpriteRenderer>().sprite;
                 
             case Weapon.WeaponModel.M16:
-                return Instantiate(Resources.Load<GameObject>("M16_Weapon")).GetComponent<SpriteRenderer>().sprite;
+                return Resources.Load<GameObject>("M16_Weapon").GetComponent<SpriteRenderer>().sprite;
                 
             default:
                 return null;
@@ -98,10 +98,10 @@ public class HUNDManager : MonoBehaviour
         switch (model)
         {
             case Weapon.WeaponModel.Pistol1911:
-                return Instantiate(Resources.Load<GameObject>("Pistol1911_Ammo")).GetComponent<SpriteRenderer>().sprite;
+                return Resources.Load<GameObject>("Pistol1911_Ammo").GetComponent<SpriteRenderer>().sprite;
 
             case Weapon.WeaponModel.M16:
-                return Instantiate(Resources.Load<GameObject>("Rifle_Ammo")).GetComponent<SpriteRenderer>().sprite;
+                return Resources.Load<GameObject>("Rifle_Ammo").GetComponent<SpriteRenderer>().sprite;
 
             default:
                 return null;
@@ -123,5 +123,14 @@ public class HUNDManager : MonoBehaviour
         return null;
     }
 
-   
+    internal void UpdateThrowables(Throwable.ThrowableType throwable)
+    {
+        switch(throwable)
+        {
+            case Throwable.ThrowableType.Green:
+                lethalAmountUI.text = $"{WeaponManager.Instance.grenades}";
+                lethalUI.sprite=Resources.Load<GameObject>("Grenade").GetComponent<SpriteRenderer>().sprite;
+                break;
+        }
+    }
 }

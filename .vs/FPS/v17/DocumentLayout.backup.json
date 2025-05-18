@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\unityProject\\FPS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|d:\\unityproject\\fps\\assets\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|D:\\unityProject\\FPS\\assets\\scripts\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|D:\\unityProject\\FPS\\assets\\scripts\\hundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|d:\\unityproject\\fps\\assets\\scripts\\hundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|D:\\unityProject\\FPS\\assets\\scripts\\interactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|D:\\unityProject\\FPS\\assets\\scripts\\gobalreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gobalreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|D:\\unityProject\\FPS\\assets\\scripts\\throwable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\throwable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|D:\\unityProject\\FPS\\assets\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|D:\\unityProject\\FPS\\assets\\scripts\\ammobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|D:\\unityProject\\FPS\\assets\\scripts\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|D:\\unityProject\\FPS\\assets\\scripts\\gobalreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gobalreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CC92EE2-C97E-2137-C111-F092707B90B5}|Assembly-CSharp.csproj|D:\\unityProject\\FPS\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,31 +66,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "WeaponManager.cs",
               "DocumentMoniker": "D:\\unityProject\\FPS\\Assets\\Scripts\\WeaponManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WeaponManager.cs",
               "ToolTip": "D:\\unityProject\\FPS\\Assets\\Scripts\\WeaponManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\WeaponManager.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAowIcAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAwFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T13:17:37.224Z"
+              "WhenOpened": "2025-05-13T13:17:37.224Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "InteractionManager.cs",
               "DocumentMoniker": "D:\\unityProject\\FPS\\Assets\\Scripts\\InteractionManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InteractionManager.cs",
               "ToolTip": "D:\\unityProject\\FPS\\Assets\\Scripts\\InteractionManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\InteractionManager.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAswEkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAA0wFAAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T12:37:43.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "SoundManager.cs",
               "DocumentMoniker": "D:\\unityProject\\FPS\\Assets\\Scripts\\SoundManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SoundManager.cs",
@@ -98,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "BeerBottle.cs",
               "DocumentMoniker": "D:\\unityProject\\FPS\\Assets\\Scripts\\BeerBottle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BeerBottle.cs",
@@ -110,19 +115,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "GobalReferences.cs",
               "DocumentMoniker": "D:\\unityProject\\FPS\\Assets\\Scripts\\GobalReferences.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GobalReferences.cs",
               "ToolTip": "D:\\unityProject\\FPS\\Assets\\Scripts\\GobalReferences.cs",
               "RelativeToolTip": "Assets\\Scripts\\GobalReferences.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T14:38:28.01Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Bullet.cs",
               "DocumentMoniker": "D:\\unityProject\\FPS\\Assets\\Scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
@@ -134,20 +139,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Weapon.cs",
               "DocumentMoniker": "D:\\unityProject\\FPS\\Assets\\Scripts\\Weapon.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon.cs",
               "ToolTip": "D:\\unityProject\\FPS\\Assets\\Scripts\\Weapon.cs",
               "RelativeToolTip": "Assets\\Scripts\\Weapon.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAYwEsAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAwJkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T14:32:36.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T14:32:36.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AmmoBox.cs",
               "DocumentMoniker": "D:\\unityProject\\FPS\\Assets\\Scripts\\AmmoBox.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AmmoBox.cs",
@@ -159,19 +163,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "HUNDManager.cs",
               "DocumentMoniker": "D:\\unityProject\\FPS\\Assets\\Scripts\\HUNDManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HUNDManager.cs",
               "ToolTip": "D:\\unityProject\\FPS\\Assets\\Scripts\\HUNDManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\HUNDManager.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAYwAoAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAcwIMAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T11:33:58.525Z"
+              "WhenOpened": "2025-05-15T11:33:58.525Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
+              "Title": "Throwable.cs",
+              "DocumentMoniker": "D:\\unityProject\\FPS\\Assets\\Scripts\\Throwable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Throwable.cs",
+              "ToolTip": "D:\\unityProject\\FPS\\Assets\\Scripts\\Throwable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Throwable.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwDwAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T04:34:44.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "MouseMovement.cs",
               "DocumentMoniker": "D:\\unityProject\\FPS\\Assets\\Scripts\\MouseMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MouseMovement.cs",
@@ -183,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "D:\\unityProject\\FPS\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",

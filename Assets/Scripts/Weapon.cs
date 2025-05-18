@@ -151,13 +151,16 @@ public class Weapon : MonoBehaviour
         bulletsLeft--;
         muzzleEffect.GetComponent<ParticleSystem>().Play();
 
+        
         // 在ADS状态后不播放后坐力动画
         if (isADS)
         {
+           
             animator.SetTrigger("RECOIL_ADS");  
         }
         else
         {
+            
             animator.SetTrigger("RECOIL");
         }
         
